@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ABOUT</title>
+        <link rel="icon" type="image/png" href="University_of_the_Cordilleras_crest.png">
+        <link rel="stylesheet" href="header.css">
+        <style>
+            .container {
+              border-radius: 5px;
+              padding: 20px;
+              margin-top: 40px;
+              font-size: 20px;
+            }
+
+            h2{
+                color:  #246026;
+            }
+
+            .func{
+                text-align: center;
+            }
+
+            .effect8{
+                background-color: aliceblue;
+                max-width: 800px;
+                padding: 16px;
+                position:relative;
+                -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+                -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+                box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            }
+
+            .effect8:before, .effect8:after{
+                content:"";
+                position:absolute;
+                z-index:-1;
+                -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+                -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+                box-shadow:0 0 20px rgba(0,0,0,0.8);
+                top:10px;
+                bottom:10px;
+                left:0;
+                right:0;
+                -moz-border-radius:100px / 10px;
+                border-radius:100px / 10px;
+            }
+
+            .effect8:after{
+                right:10px;
+                left:auto;
+                -webkit-transform:skew(8deg) rotate(3deg);
+                -moz-transform:skew(8deg) rotate(3deg);
+                -ms-transform:skew(8deg) rotate(3deg);
+                -o-transform:skew(8deg) rotate(3deg);
+                transform:skew(8deg) rotate(3deg);
+            }
+
+            table {
+                width:100%;
+            }
+
+           #t01, td{
+                border: 2px solid black;
+                border-collapse: collapse;
+            }
+
+            th, td {
+                padding: 15px;
+                text-align: center;
+            }
+
+            #tdfirst{
+                background-color: whitesmoke;
+                color: black;
+            }
+        </style>
+    </head>
+    <body>
+        <form method="POST" action="">
+            <ul>
+              <li style="float:right"><a href="login.php">Log out</a></li>
+              <li style="float:right"><a href="homepage.php">Home</a></li>
+            </ul>
+            <logo><img src="UC_Official_Logo.png" style="width=250px; height: 120px;"></logo>
+            <div class="img">
+                <img src="University_of_the_Cordilleras_crest.png" width="370px" height="460px">
+            </div>
+            <div class="container">
+                <form action="/action_page.php">
+                    <center>      
+                        <div class="box effect8">
+                            <table>
+                                <tr>
+                                    <h2>Online Re - Admission / Conditional Enrollment</h2>
+                                </tr>
+                                <tr>
+                                    The system is for the students of University of Cordilleras. This system will serve as an online re-admission or consultation for those who failed a subject. Originally, when a student failed a subject, he/she will go the Office of Secretary (per department). This will benefit students especially to those students not living permanently in Baguio <CITE></CITE>ty; because of the system the student can be re-admitted through online instead of going physically to the office. The group will be choosing a web-based development for the platform.
+                                </tr><br><br>
+                                <tr>
+                                    <h4>The system’s functionality are the following:</h4>
+                                </tr>
+                                <tr class="func">
+                                    •    The system can send a notification and email that she/he failed a subject. <br>
+                                    •   Discuss further the functionalities of the system what can it do etc. <br>
+                                    •   Discuss the process of re admitting a student using the system <br>
+                                    •   Can this also use for scheduling
+                                </tr>
+                            </table>
+                        </div>
+                    </center>
+                </form>
+            </div>
+        </form>
+    </body>
+</html>

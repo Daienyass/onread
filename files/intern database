@@ -1,0 +1,9 @@
+create database db_rc;
+
+use db_rc;
+
+create table tbl_form(id int(100) not null primary key auto_increment, FirstName varchar(50) not null, LastName varchar(50) not null, IDno varchar(25), term int(1), SchoolYear int(4), Grades int(15), Yes varchar(10), No varchar(10), Courses varchar(100), Unit varchar(100), Reason varchar(100), Promise varchar(100), Action varchar(20) not null default "Re-Enroll");
+
+create table tbl_rc(id int(100) not null primary key auto_increment, idNo int(50) not null, password varchar(50) not null);
+
+insert into tbl_rc(idNo, password) values (111,'philine'), (112,'kimberlyn'), (113,'hazel'), (114,'diane'), (115,'allyza'), (116,'ericka'), (117,'joao'), (118,'philip'), (119,'phia'), (120,'keke'), (121,'lala');

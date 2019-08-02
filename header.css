@@ -1,0 +1,55 @@
+body{
+    height: 100%;
+    font-family:"century gothic";
+    background-color: ghostwhite;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+   
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkgreen;
+}
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 30px 30px;
+    text-decoration: none;
+}
+    
+li:last-child {
+    border-right: none;
+}
+
+li a:hover:not(.active) {
+    background-color: black;
+}
+
+.img {
+    opacity: 0.7;
+    position: absolute;
+    top: 125px;
+    left: 920px;
+    z-index: -1;
+}
+
+.img:hover {
+    opacity: 1.0;
+}
+
+logo {
+    position: absolute;
+    left: 20px;
+    top: 7px;
+}
